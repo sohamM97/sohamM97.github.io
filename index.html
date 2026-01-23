@@ -1,252 +1,491 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soham Marik | Senior Engineer</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="nav-logo">Soham Marik</a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-            </button>
-        </div>
+      <div class="nav-container">
+        <a href="#" class="nav-logo">Soham Marik</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          aria-label="Toggle dark mode"
+        >
+          <svg
+            class="sun-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg
+            class="moon-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
     </nav>
 
     <header class="hero">
-        <div class="hero-content">
-            <img src="profile.jpg" alt="Soham Marik" class="hero-avatar">
-            <h1>Soham Marik</h1>
-            <p class="hero-subtitle">Senior Engineer</p>
-            <p class="hero-description">Backend Developer & DevOps Engineer specializing in Python, Django, Kubernetes, and Cloud Platforms</p>
-            <div class="hero-links">
-                <a href="mailto:soham.marik@gmail.com" class="btn btn-primary">Get in Touch</a>
-                <a href="https://github.com/sohamM97" target="_blank" class="btn btn-secondary">GitHub</a>
-                <a href="https://linkedin.com/in/soham-marik" target="_blank" class="btn btn-secondary">LinkedIn</a>
-            </div>
+      <div class="hero-content">
+        <img src="profile.jpg" alt="Soham Marik" class="hero-avatar" />
+        <h1>Soham Marik</h1>
+        <p class="hero-subtitle">Senior Backend and Cloud Engineer</p>
+        <p class="hero-description">
+          Python, Django, Kubernetes, AWS & Azure
+        </p>
+        <div class="hero-links">
+          <a href="mailto:soham.marik@gmail.com" class="btn btn-primary"
+            >Get in Touch</a
+          >
+          <a
+            href="https://github.com/sohamM97"
+            target="_blank"
+            class="btn btn-secondary"
+            >GitHub</a
+          >
+          <a
+            href="https://linkedin.com/in/soham-marik"
+            target="_blank"
+            class="btn btn-secondary"
+            >LinkedIn</a
+          >
         </div>
+      </div>
     </header>
 
     <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <p class="about-text">
-                I'm a Senior Engineer with 6+ years of experience building scalable backend systems and cloud infrastructure.
-                I specialize in developing backend applications with Python and Django, designing REST APIs,
-                and deploying them on cloud-native architectures using AWS and Azure.
-                My work has impacted thousands of users across multiple regions,
-                from healthcare platforms to enterprise RPA solutions.
-            </p>
-        </div>
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+          I'm a Senior Engineer with 6+ years of experience building scalable
+          backend systems and cloud infrastructure. I specialize in developing
+          backend applications with Python and Django, designing REST APIs, and
+          deploying them on cloud-native architectures using AWS and Azure. My
+          work has impacted thousands of users across multiple regions, from
+          healthcare platforms to enterprise RPA solutions.
+        </p>
+      </div>
     </section>
 
     <section id="experience" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
 
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Senior Engineer</h3>
-                            <span class="company">AutomationEdge</span>
-                            <span class="location">Pune, Maharashtra</span>
-                            <span class="date">April 2024 – Present</span>
-                        </div>
-                        <ul class="timeline-details">
-                            <li>Enhanced AIStudio chatbot framework with licensing, retrieval-augmented generation, and multi-cloud support (AWS, Azure), improving user engagement and satisfaction</li>
-                            <li>Optimized the framework for better accuracy and performance through backend improvements</li>
-                            <li>Deployed AIStudio on Azure VMs for a production client across 8 regions, serving 10,000 employees with secure, scalable infrastructure</li>
-                            <li>Architected AWS EKS-based platform for CareFlo from scratch using Terraform, set up CI/CD with ECR, CodeBuild, and ArgoCD, now supporting 3,000+ active users</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Django</span>
-                            <span class="tech-tag">AWS</span>
-                            <span class="tech-tag">Azure</span>
-                            <span class="tech-tag">Docker</span>
-                            <span class="tech-tag">Kubernetes</span>
-                            <span class="tech-tag">Terraform</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Engineer</h3>
-                            <span class="company">AutomationEdge</span>
-                            <span class="location">Pune, Maharashtra</span>
-                            <span class="date">February 2020 – March 2024</span>
-                        </div>
-                        <ul class="timeline-details">
-                            <li>Developed AIStudio - a chatbot framework for training NLU and knowledge article search models, integrated with RPA workflows</li>
-                            <li>Built backend functionality from scratch for NLU data labeling components, including database models, business logic, and REST API design</li>
-                            <li>Dockerized and deployed AIStudio using Kubernetes on Microsoft Azure, ensuring consistent deployments across environments</li>
-                            <li>Streamlined release process using Azure DevOps, reducing manual intervention and accelerating time-to-market</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Django</span>
-                            <span class="tech-tag">PostgreSQL</span>
-                            <span class="tech-tag">Redis</span>
-                            <span class="tech-tag">Docker</span>
-                            <span class="tech-tag">Kubernetes</span>
-                            <span class="tech-tag">Azure DevOps</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Research and Development Engineer</h3>
-                            <span class="company">Glocal Healthcare Systems Pvt. Ltd.</span>
-                            <span class="location">Kolkata, West Bengal</span>
-                            <span class="date">May 2019 – February 2020</span>
-                        </div>
-                        <ul class="timeline-details">
-                            <li>Maintained video and text communication interface for HelloLyf, an online doctor consultation platform</li>
-                            <li>Trained and deployed a random forest classifier on patient data using Amazon Sagemaker, pioneering AI implementation in the company</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span class="tech-tag">Java</span>
-                            <span class="tech-tag">WebRTC</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">scikit-learn</span>
-                            <span class="tech-tag">Amazon Sagemaker</span>
-                        </div>
-                    </div>
-                </div>
+        <div class="exp-timeline">
+          <!-- Current Role - Emphasized -->
+          <div class="exp-item current">
+            <div class="exp-marker">
+              <div class="exp-dot"></div>
+              <div class="exp-line"></div>
             </div>
+            <div class="exp-card" onclick="this.classList.toggle('expanded')">
+              <div class="exp-badge">Current</div>
+              <div class="exp-header">
+                <div class="exp-company">AutomationEdge</div>
+                <div class="exp-meta">
+                  <span class="exp-role">Engineer → Senior Engineer</span>
+                  <span class="exp-date">2020 – Present</span>
+                </div>
+              </div>
+              <ul class="exp-highlights">
+                <li>Built AIStudio chatbot framework, deployed across 8 regions to 10,000+ employees</li>
+                <li>Architected AWS EKS platform for CareFlo, serving 3,000+ active users</li>
+              </ul>
+              <div class="exp-expand-hint">
+                <span class="expand-text">Show more</span>
+                <span class="collapse-text">Show less</span>
+              </div>
+              <div class="exp-details">
+                <ul class="exp-full-list">
+                  <li>Built the AIStudio backend from the ground up, designing REST APIs, data models, and core business logic to integrate NLU training and knowledge search with RPA workflows..</li>
+                  <li>Added platform-level licensing and retrieval-augmented generation, expanding the RAG pipeline to support both Azure and AWS services.</li>
+                  <li>Built the CareFlo platform infrastructure from the ground up on AWS EKS, using Terraform and ArgoCD, and established CI/CD, observability, and developer onboarding workflows.</li>
+                <div class="exp-tech">
+                  <span>Python</span>
+                  <span>Django</span>
+                  <span>PostgreSQL</span>
+                  <span>AWS</span>
+                  <span>Azure</span>
+                  <span>Kubernetes</span>
+                  <span>Terraform</span>
+                  <span>Docker</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Past Role -->
+          <div class="exp-item">
+            <div class="exp-marker">
+              <div class="exp-dot"></div>
+            </div>
+            <div class="exp-card" onclick="this.classList.toggle('expanded')">
+              <div class="exp-header">
+                <div class="exp-company">Glocal Healthcare</div>
+                <div class="exp-meta">
+                  <span class="exp-role">R&D Engineer</span>
+                  <span class="exp-date">2019 – 2020</span>
+                </div>
+              </div>
+              <ul class="exp-highlights">
+                  <li>Deployed the company’s first ML model to production using Amazon SageMaker</li>
+                <li>Contributed to real-time video consultation features for HelloLyf</li>
+              </ul>
+              <div class="exp-expand-hint">
+                <span class="expand-text">Show more</span>
+                <span class="collapse-text">Show less</span>
+              </div>
+              <div class="exp-details">
+                <ul class="exp-full-list">
+                    <li>Trained and deployed a random forest classifier on patient vitals and symptoms using Amazon SageMaker, pioneering AI adoption at the company.</li>
+                  <li>Enhanced and maintained WebRTC-based video and text communication features for HelloLyf, an online doctor consultation platform.</li>
+                </ul>
+                <div class="exp-tech">
+                  <span>Java</span>
+                  <span>WebRTC</span>
+                  <span>Python</span>
+                  <span>scikit-learn</span>
+                  <span>Amazon SageMaker</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-cloud">
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">Django</span>
-                <span class="skill-tag">PostgreSQL</span>
-                <span class="skill-tag">Redis</span>
-                <span class="skill-tag">REST APIs</span>
-                <span class="skill-tag">AWS</span>
-                <span class="skill-tag">Microsoft Azure</span>
-                <span class="skill-tag">Docker</span>
-                <span class="skill-tag">Kubernetes</span>
-                <span class="skill-tag">Terraform</span>
-                <span class="skill-tag">Git</span>
-                <span class="skill-tag">ArgoCD</span>
-                <span class="skill-tag">CI/CD</span>
-                <span class="skill-tag">Gunicorn</span>
-                <span class="skill-tag">NGINX</span>
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-banner backend">
+              <span class="project-type">Backend</span>
             </div>
+            <div class="project-content">
+              <h3>AIStudio</h3>
+              <p class="project-description">
+                Enterprise chatbot framework with NLU training, knowledge article search,
+                and retrieval-augmented generation. Integrates with RPA workflows.
+              </p>
+              <div class="project-metrics">
+                <div class="metric">
+                  <span class="metric-value">10,000+</span>
+                  <span class="metric-label">Users</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">8</span>
+                  <span class="metric-label">Regions</span>
+                </div>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Django</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Redis</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-banner infra">
+              <span class="project-type">Infrastructure</span>
+            </div>
+            <div class="project-content">
+              <h3>CareFlo Platform</h3>
+              <p class="project-description">
+                AWS EKS-based platform for healthcare automation, built from scratch
+                with modular Terraform configuration and full CI/CD pipeline.
+              </p>
+              <div class="project-metrics">
+                <div class="metric">
+                  <span class="metric-value">3,000+</span>
+                  <span class="metric-label">Active Users</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">100%</span>
+                  <span class="metric-label">IaC</span>
+                </div>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag">Terraform</span>
+                <span class="tech-tag">Kubernetes</span>
+                <span class="tech-tag">ArgoCD</span>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section id="education" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-grid">
-                <div class="education-card">
-                    <h3>B.Tech., Computer Science and Engineering</h3>
-                    <p class="institution">Indian Institute of Information Technology, Sri City</p>
-                    <p class="location">Chittoor, Andhra Pradesh</p>
-                    <p class="year">2015 – 2019</p>
-                </div>
-                <div class="education-card">
-                    <h3>Class XII (CBSE)</h3>
-                    <p class="institution">Delhi Public School, Ruby Park</p>
-                    <p class="location">Kolkata, West Bengal</p>
-                    <p class="year">2015</p>
-                </div>
-                <div class="education-card">
-                    <h3>Class X (CBSE)</h3>
-                    <p class="institution">Delhi Public School, Ruby Park</p>
-                    <p class="location">Kolkata, West Bengal</p>
-                    <p class="year">2013</p>
-                </div>
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-list">
+          <div class="skill-row">
+            <span class="skill-label">Languages</span>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="devicon-python-plain"></i> Python</span>
+              <span class="skill-tag"><i class="devicon-azuresqldatabase-plain"></i> SQL</span>
             </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Frameworks</span>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="devicon-django-plain"></i> Django</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Cloud</span>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="devicon-amazonwebservices-plain-wordmark"></i> AWS</span>
+              <span class="skill-tag"><i class="devicon-azure-plain"></i> Azure</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Containerization & Orchestration</span>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="devicon-docker-plain"></i> Docker</span>
+              <span class="skill-tag"><i class="devicon-kubernetes-plain"></i> Kubernetes</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Infrastructure & CI/CD</span>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="devicon-terraform-plain"></i> Terraform</span>
+              <span class="skill-tag"><i class="devicon-argocd-plain"></i> ArgoCD</span>
+              <span class="skill-tag"><i class="devicon-azuredevops-plain"></i> Azure DevOps</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Databases & Tools</span>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="devicon-postgresql-plain"></i> PostgreSQL</span>
+              <span class="skill-tag"><i class="devicon-redis-plain"></i> Redis</span>
+              <span class="skill-tag">Gunicorn</span>
+              <span class="skill-tag"><i class="devicon-nginx-original"></i> NGINX</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Versioning</span>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="devicon-git-plain"></i> Git</span>
+              <span class="skill-tag"><i class="devicon-github-original"></i> GitHub</span>
+              <span class="skill-tag"><i class="devicon-bitbucket-original"></i> Bitbucket</span>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+          <div class="education-card">
+            <h3>B.Tech., Computer Science and Engineering</h3>
+            <p class="institution">
+              Indian Institute of Information Technology, Sri City
+            </p>
+            <p class="location">Chittoor, Andhra Pradesh</p>
+            <p class="year">2015 – 2019</p>
+          </div>
+          <div class="education-card">
+            <h3>Class XII (CBSE)</h3>
+            <p class="institution">Delhi Public School, Ruby Park</p>
+            <p class="location">Kolkata, West Bengal</p>
+            <p class="year">2015</p>
+          </div>
+          <div class="education-card">
+            <h3>Class X (CBSE)</h3>
+            <p class="institution">Delhi Public School, Ruby Park</p>
+            <p class="location">Kolkata, West Bengal</p>
+            <p class="year">2013</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
-            <p class="contact-text">I'm always open to discussing new opportunities, interesting projects, or collaborations.</p>
-            <div class="contact-links">
-                <a href="mailto:soham.marik@gmail.com" class="contact-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                    <span>soham.marik@gmail.com</span>
-                </a>
-                <a href="tel:+919051077891" class="contact-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                    <span>+91 9051077891</span>
-                </a>
-                <a href="https://linkedin.com/in/soham-marik" target="_blank" class="contact-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                    <span>linkedin.com/in/soham-marik</span>
-                </a>
-                <a href="https://github.com/sohamM97" target="_blank" class="contact-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                    <span>github.com/sohamM97</span>
-                </a>
-            </div>
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="contact-text">
+          I'm always open to discussing new opportunities, interesting projects,
+          or collaborations.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:soham.marik@gmail.com" class="contact-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              ></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>soham.marik@gmail.com</span>
+          </a>
+          <a href="tel:+919051077891" class="contact-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+              ></path>
+            </svg>
+            <span>+91 9051077891</span>
+          </a>
+          <a
+            href="https://linkedin.com/in/soham-marik"
+            target="_blank"
+            class="contact-item"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <span>linkedin.com/in/soham-marik</span>
+          </a>
+          <a
+            href="https://github.com/sohamM97"
+            target="_blank"
+            class="contact-item"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path>
+            </svg>
+            <span>github.com/sohamM97</span>
+          </a>
         </div>
+      </div>
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Soham Marik. All rights reserved.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2026 Soham Marik. All rights reserved.</p>
+      </div>
     </footer>
 
     <script>
-        const themeToggle = document.getElementById('themeToggle');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+      const themeToggle = document.getElementById("themeToggle");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
 
-        function setTheme(isDark) {
-            document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
-            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      function setTheme(isDark) {
+        document.documentElement.setAttribute(
+          "data-theme",
+          isDark ? "dark" : "light",
+        );
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+      }
+
+      // Check for saved preference, default to dark
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme) {
+        setTheme(savedTheme === "dark");
+      } else {
+        setTheme(true);
+      }
+
+      themeToggle.addEventListener("click", () => {
+        const currentTheme =
+          document.documentElement.getAttribute("data-theme");
+        setTheme(currentTheme !== "dark");
+      });
+
+      // Listen for system theme changes
+      prefersDark.addEventListener("change", (e) => {
+        if (!localStorage.getItem("theme")) {
+          setTheme(e.matches);
         }
-
-        // Check for saved preference, default to dark
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme) {
-            setTheme(savedTheme === 'dark');
-        } else {
-            setTheme(true);
-        }
-
-        themeToggle.addEventListener('click', () => {
-            const currentTheme = document.documentElement.getAttribute('data-theme');
-            setTheme(currentTheme !== 'dark');
-        });
-
-        // Listen for system theme changes
-        prefersDark.addEventListener('change', (e) => {
-            if (!localStorage.getItem('theme')) {
-                setTheme(e.matches);
-            }
-        });
+      });
     </script>
-</body>
+  </body>
 </html>
